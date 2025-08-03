@@ -1,0 +1,407 @@
+[
+  {
+    "spotNumber": "A03",
+    "vehicleInfo": {
+      "licensePlate": "ABC123",
+      "vehicleType": "car",
+      "color": "Blue",
+      "model": "Honda Civic"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-15T09:00:00.000Z"},
+      "endTime": {"$date": "2025-01-15T17:00:00.000Z"},
+      "duration": 480,
+      "actualStartTime": {"$date": "2025-01-15T09:05:00.000Z"},
+      "actualEndTime": null
+    },
+    "pricing": {
+      "baseAmount": 68.00,
+      "taxes": 5.44,
+      "fees": 2.50,
+      "totalAmount": 75.94,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "card",
+      "status": "completed",
+      "transactionId": "txn_abc123def",
+      "paidAt": {"$date": "2025-01-15T08:45:00.000Z"}
+    },
+    "status": "active",
+    "qrCode": "qr_abc123def456",
+    "notifications": {
+      "reminderSent": true,
+      "arrivalNotified": true,
+      "completionNotified": false
+    },
+    "createdAt": {"$date": "2025-01-15T08:30:00.000Z"},
+    "updatedAt": {"$date": "2025-01-15T09:05:00.000Z"}
+  },
+  {
+    "spotNumber": "B05",
+    "vehicleInfo": {
+      "licensePlate": "XYZ789",
+      "vehicleType": "car",
+      "color": "Red",
+      "model": "Toyota Camry"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-10T14:00:00.000Z"},
+      "endTime": {"$date": "2025-01-10T18:00:00.000Z"},
+      "duration": 240,
+      "actualStartTime": {"$date": "2025-01-10T14:00:00.000Z"},
+      "actualEndTime": {"$date": "2025-01-10T18:00:00.000Z"}
+    },
+    "pricing": {
+      "baseAmount": 20.00,
+      "taxes": 1.60,
+      "fees": 2.50,
+      "totalAmount": 24.10,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "wallet",
+      "status": "completed",
+      "transactionId": "txn_xyz789ghi",
+      "paidAt": {"$date": "2025-01-10T13:45:00.000Z"}
+    },
+    "status": "completed",
+    "qrCode": "qr_xyz789ghi012",
+    "notifications": {
+      "reminderSent": true,
+      "arrivalNotified": true,
+      "completionNotified": true
+    },
+    "feedback": {
+      "rating": 5,
+      "comment": "Great parking experience!",
+      "submittedAt": {"$date": "2025-01-10T18:15:00.000Z"}
+    },
+    "createdAt": {"$date": "2025-01-10T13:30:00.000Z"},
+    "updatedAt": {"$date": "2025-01-10T18:15:00.000Z"}
+  },
+  {
+    "spotNumber": "C04",
+    "vehicleInfo": {
+      "licensePlate": "DEF456",
+      "vehicleType": "truck",
+      "color": "Black",
+      "model": "Ford F-150"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-20T06:00:00.000Z"},
+      "endTime": {"$date": "2025-01-20T18:00:00.000Z"},
+      "duration": 720,
+      "actualStartTime": null,
+      "actualEndTime": null
+    },
+    "pricing": {
+      "baseAmount": 144.00,
+      "taxes": 11.52,
+      "fees": 2.50,
+      "totalAmount": 158.02,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "card",
+      "status": "completed",
+      "transactionId": "txn_def456jkl",
+      "paidAt": {"$date": "2025-01-18T15:30:00.000Z"}
+    },
+    "status": "reserved",
+    "qrCode": "qr_def456jkl789",
+    "notifications": {
+      "reminderSent": false,
+      "arrivalNotified": false,
+      "completionNotified": false
+    },
+    "createdAt": {"$date": "2025-01-18T15:00:00.000Z"},
+    "updatedAt": {"$date": "2025-01-18T15:30:00.000Z"}
+  },
+  {
+    "spotNumber": "D03",
+    "vehicleInfo": {
+      "licensePlate": "GHI789",
+      "vehicleType": "car",
+      "color": "White",
+      "model": "BMW 3 Series"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-05T10:00:00.000Z"},
+      "endTime": {"$date": "2025-01-05T16:00:00.000Z"},
+      "duration": 360,
+      "actualStartTime": {"$date": "2025-01-05T10:00:00.000Z"},
+      "actualEndTime": {"$date": "2025-01-05T16:00:00.000Z"}
+    },
+    "pricing": {
+      "baseAmount": 21.00,
+      "taxes": 1.68,
+      "fees": 2.50,
+      "totalAmount": 25.18,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "card",
+      "status": "completed",
+      "transactionId": "txn_ghi789mno",
+      "paidAt": {"$date": "2025-01-05T09:45:00.000Z"}
+    },
+    "status": "completed",
+    "qrCode": "qr_ghi789mno345",
+    "notifications": {
+      "reminderSent": true,
+      "arrivalNotified": true,
+      "completionNotified": true
+    },
+    "feedback": {
+      "rating": 4,
+      "comment": "Easy to find and book.",
+      "submittedAt": {"$date": "2025-01-05T16:30:00.000Z"}
+    },
+    "createdAt": {"$date": "2025-01-05T09:30:00.000Z"},
+    "updatedAt": {"$date": "2025-01-05T16:30:00.000Z"}
+  },
+  {
+    "spotNumber": "E03",
+    "vehicleInfo": {
+      "licensePlate": "JKL012",
+      "vehicleType": "motorcycle",
+      "color": "Green",
+      "model": "Harley Davidson"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-12T08:00:00.000Z"},
+      "endTime": {"$date": "2025-01-12T12:00:00.000Z"},
+      "duration": 240,
+      "actualStartTime": null,
+      "actualEndTime": null
+    },
+    "pricing": {
+      "baseAmount": 24.00,
+      "taxes": 1.92,
+      "fees": 2.50,
+      "totalAmount": 28.42,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "wallet",
+      "status": "failed",
+      "transactionId": null,
+      "paidAt": null
+    },
+    "status": "cancelled",
+    "qrCode": "qr_jkl012pqr678",
+    "notifications": {
+      "reminderSent": false,
+      "arrivalNotified": false,
+      "completionNotified": false
+    },
+    "cancellation": {
+      "cancelledAt": {"$date": "2025-01-11T20:00:00.000Z"},
+      "reason": "Plans changed",
+      "refundEligible": true
+    },
+    "createdAt": {"$date": "2025-01-11T19:30:00.000Z"},
+    "updatedAt": {"$date": "2025-01-11T20:00:00.000Z"}
+  },
+  {
+    "spotNumber": "F01",
+    "vehicleInfo": {
+      "licensePlate": "MNO345",
+      "vehicleType": "car",
+      "color": "Silver",
+      "model": "Mercedes C-Class"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-25T18:00:00.000Z"},
+      "endTime": {"$date": "2025-01-25T23:00:00.000Z"},
+      "duration": 300,
+      "actualStartTime": null,
+      "actualEndTime": null
+    },
+    "pricing": {
+      "baseAmount": 75.00,
+      "taxes": 6.00,
+      "fees": 2.50,
+      "totalAmount": 83.50,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "card",
+      "status": "pending",
+      "transactionId": null,
+      "paidAt": null
+    },
+    "status": "reserved",
+    "qrCode": "qr_mno345stu901",
+    "notifications": {
+      "reminderSent": false,
+      "arrivalNotified": false,
+      "completionNotified": false
+    },
+    "createdAt": {"$date": "2025-01-22T14:00:00.000Z"},
+    "updatedAt": {"$date": "2025-01-22T14:00:00.000Z"}
+  },
+  {
+    "spotNumber": "A07",
+    "vehicleInfo": {
+      "licensePlate": "PQR678",
+      "vehicleType": "car",
+      "color": "Yellow",
+      "model": "Volkswagen Golf"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-08T12:00:00.000Z"},
+      "endTime": {"$date": "2025-01-08T15:00:00.000Z"},
+      "duration": 180,
+      "actualStartTime": {"$date": "2025-01-08T12:00:00.000Z"},
+      "actualEndTime": {"$date": "2025-01-08T15:00:00.000Z"}
+    },
+    "pricing": {
+      "baseAmount": 25.50,
+      "taxes": 2.04,
+      "fees": 2.50,
+      "totalAmount": 30.04,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "cash",
+      "status": "completed",
+      "transactionId": "txn_pqr678vwx",
+      "paidAt": {"$date": "2025-01-08T15:00:00.000Z"}
+    },
+    "status": "completed",
+    "qrCode": "qr_pqr678vwx234",
+    "notifications": {
+      "reminderSent": true,
+      "arrivalNotified": true,
+      "completionNotified": true
+    },
+    "feedback": {
+      "rating": 3,
+      "comment": "Could be cleaner.",
+      "submittedAt": {"$date": "2025-01-08T15:30:00.000Z"}
+    },
+    "createdAt": {"$date": "2025-01-08T11:30:00.000Z"},
+    "updatedAt": {"$date": "2025-01-08T15:30:00.000Z"}
+  },
+  {
+    "spotNumber": "B03",
+    "vehicleInfo": {
+      "licensePlate": "STU901",
+      "vehicleType": "car",
+      "color": "Orange",
+      "model": "Nissan Altima"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-18T07:00:00.000Z"},
+      "endTime": {"$date": "2025-01-18T19:00:00.000Z"},
+      "duration": 720,
+      "actualStartTime": {"$date": "2025-01-18T07:15:00.000Z"},
+      "actualEndTime": null
+    },
+    "pricing": {
+      "baseAmount": 60.00,
+      "taxes": 4.80,
+      "fees": 2.50,
+      "totalAmount": 67.30,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "wallet",
+      "status": "completed",
+      "transactionId": "txn_stu901yza",
+      "paidAt": {"$date": "2025-01-18T06:45:00.000Z"}
+    },
+    "status": "active",
+    "qrCode": "qr_stu901yza567",
+    "notifications": {
+      "reminderSent": true,
+      "arrivalNotified": true,
+      "completionNotified": false
+    },
+    "createdAt": {"$date": "2025-01-18T06:30:00.000Z"},
+    "updatedAt": {"$date": "2025-01-18T07:15:00.000Z"}
+  },
+  {
+    "spotNumber": "D01",
+    "vehicleInfo": {
+      "licensePlate": "VWX234",
+      "vehicleType": "car",
+      "color": "Purple",
+      "model": "Hyundai Elantra"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-03T13:00:00.000Z"},
+      "endTime": {"$date": "2025-01-03T17:00:00.000Z"},
+      "duration": 240,
+      "actualStartTime": {"$date": "2025-01-03T13:00:00.000Z"},
+      "actualEndTime": {"$date": "2025-01-03T17:00:00.000Z"}
+    },
+    "pricing": {
+      "baseAmount": 14.00,
+      "taxes": 1.12,
+      "fees": 2.50,
+      "totalAmount": 17.62,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "card",
+      "status": "completed",
+      "transactionId": "txn_vwx234bcd",
+      "paidAt": {"$date": "2025-01-03T12:45:00.000Z"}
+    },
+    "status": "completed",
+    "qrCode": "qr_vwx234bcd890",
+    "notifications": {
+      "reminderSent": true,
+      "arrivalNotified": true,
+      "completionNotified": true
+    },
+    "feedback": {
+      "rating": 5,
+      "comment": "Perfect location.",
+      "submittedAt": {"$date": "2025-01-03T17:15:00.000Z"}
+    },
+    "createdAt": {"$date": "2025-01-03T12:30:00.000Z"},
+    "updatedAt": {"$date": "2025-01-03T17:15:00.000Z"}
+  },
+  {
+    "spotNumber": "E04",
+    "vehicleInfo": {
+      "licensePlate": "YZA567",
+      "vehicleType": "car",
+      "color": "Pink",
+      "model": "Kia Optima"
+    },
+    "bookingDetails": {
+      "startTime": {"$date": "2025-01-16T11:00:00.000Z"},
+      "endTime": {"$date": "2025-01-16T15:00:00.000Z"},
+      "duration": 240,
+      "actualStartTime": null,
+      "actualEndTime": null
+    },
+    "pricing": {
+      "baseAmount": 24.00,
+      "taxes": 1.92,
+      "fees": 2.50,
+      "totalAmount": 28.42,
+      "currency": "USD"
+    },
+    "payment": {
+      "method": "card",
+      "status": "completed",
+      "transactionId": "txn_yza567efg",
+      "paidAt": {"$date": "2025-01-16T10:45:00.000Z"}
+    },
+    "status": "no_show",
+    "qrCode": "qr_yza567efg123",
+    "notifications": {
+      "reminderSent": true,
+      "arrivalNotified": false,
+      "completionNotified": false
+    },
+    "createdAt": {"$date": "2025-01-16T10:30:00.000Z"},
+    "updatedAt": {"$date": "2025-01-16T15:30:00.000Z"}
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "name": "Downtown Business Center",
+    "address": {
+      "street": "123 Main Street",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-74.0060, 40.7128]
+    },
+    "totalSpots": 50,
+    "availableSpots": 35,
+    "spots": [
+      {"spotNumber": "A01", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 40.7128, "longitude": -74.0060}},
+      {"spotNumber": "A02", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 40.7129, "longitude": -74.0061}},
+      {"spotNumber": "A03", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 40.7130, "longitude": -74.0062}},
+      {"spotNumber": "A04", "type": "electric", "isAvailable": false, "isReserved": true, "coordinates": {"latitude": 40.7131, "longitude": -74.0063}},
+      {"spotNumber": "A05", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 40.7132, "longitude": -74.0064}},
+      {"spotNumber": "A06", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 40.7133, "longitude": -74.0065}},
+      {"spotNumber": "A07", "type": "compact", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 40.7134, "longitude": -74.0066}},
+      {"spotNumber": "A08", "type": "compact", "isAvailable": false, "isReserved": false, "coordinates": {"latitude": 40.7135, "longitude": -74.0067}},
+      {"spotNumber": "A09", "type": "compact", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 40.7136, "longitude": -74.0068}},
+      {"spotNumber": "A10", "type": "compact", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 40.7137, "longitude": -74.0069}}
+    ],
+    "pricing": {
+      "hourlyRate": 8.50,
+      "dailyRate": 45.00,
+      "currency": "USD"
+    },
+    "amenities": ["covered", "security", "ev_charging", "24_hour"],
+    "operatingHours": {
+      "open": "00:00",
+      "close": "23:59",
+      "is24Hours": true
+    },
+    "contactInfo": {
+      "phone": "+1-555-1001",
+      "email": "downtown@parkease.com"
+    },
+    "isActive": true,
+    "createdAt": {"$date": "2025-01-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2025-01-01T00:00:00.000Z"}
+  },
+  {
+    "name": "Shopping Mall Parking",
+    "address": {
+      "street": "456 Commerce Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90210",
+      "country": "USA"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-118.2437, 34.0522]
+    },
+    "totalSpots": 120,
+    "availableSpots": 84,
+    "spots": [
+      {"spotNumber": "B01", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 34.0522, "longitude": -118.2437}},
+      {"spotNumber": "B02", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 34.0523, "longitude": -118.2438}},
+      {"spotNumber": "B03", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 34.0524, "longitude": -118.2439}},
+      {"spotNumber": "B04", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 34.0525, "longitude": -118.2440}},
+      {"spotNumber": "B05", "type": "electric", "isAvailable": false, "isReserved": true, "coordinates": {"latitude": 34.0526, "longitude": -118.2441}},
+      {"spotNumber": "B06", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 34.0527, "longitude": -118.2442}}
+    ],
+    "pricing": {
+      "hourlyRate": 5.00,
+      "dailyRate": 25.00,
+      "currency": "USD"
+    },
+    "amenities": ["covered", "security", "car_wash"],
+    "operatingHours": {
+      "open": "06:00",
+      "close": "22:00",
+      "is24Hours": false
+    },
+    "contactInfo": {
+      "phone": "+1-555-1002",
+      "email": "mall@parkease.com"
+    },
+    "isActive": true,
+    "createdAt": {"$date": "2025-01-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2025-01-01T00:00:00.000Z"}
+  },
+  {
+    "name": "Airport Long-term Parking",
+    "address": {
+      "street": "789 Airport Blvd",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-87.6298, 41.8781]
+    },
+    "totalSpots": 200,
+    "availableSpots": 140,
+    "spots": [
+      {"spotNumber": "C01", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 41.8781, "longitude": -87.6298}},
+      {"spotNumber": "C02", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 41.8782, "longitude": -87.6299}},
+      {"spotNumber": "C03", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 41.8783, "longitude": -87.6300}},
+      {"spotNumber": "C04", "type": "electric", "isAvailable": false, "isReserved": false, "coordinates": {"latitude": 41.8784, "longitude": -87.6301}},
+      {"spotNumber": "C05", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 41.8785, "longitude": -87.6302}}
+    ],
+    "pricing": {
+      "hourlyRate": 12.00,
+      "dailyRate": 85.00,
+      "currency": "USD"
+    },
+    "amenities": ["security", "valet", "24_hour"],
+    "operatingHours": {
+      "open": "00:00",
+      "close": "23:59",
+      "is24Hours": true
+    },
+    "contactInfo": {
+      "phone": "+1-555-1003",
+      "email": "airport@parkease.com"
+    },
+    "isActive": true,
+    "createdAt": {"$date": "2025-01-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2025-01-01T00:00:00.000Z"}
+  },
+  {
+    "name": "University Campus Parking",
+    "address": {
+      "street": "321 College Way",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02101",
+      "country": "USA"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-71.0589, 42.3601]
+    },
+    "totalSpots": 80,
+    "availableSpots": 56,
+    "spots": [
+      {"spotNumber": "D01", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 42.3601, "longitude": -71.0589}},
+      {"spotNumber": "D02", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 42.3602, "longitude": -71.0590}},
+      {"spotNumber": "D03", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 42.3603, "longitude": -71.0591}},
+      {"spotNumber": "D04", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 42.3604, "longitude": -71.0592}}
+    ],
+    "pricing": {
+      "hourlyRate": 3.50,
+      "dailyRate": 15.00,
+      "currency": "USD"
+    },
+    "amenities": ["ev_charging", "security"],
+    "operatingHours": {
+      "open": "05:00",
+      "close": "23:00",
+      "is24Hours": false
+    },
+    "contactInfo": {
+      "phone": "+1-555-1004",
+      "email": "campus@parkease.com"
+    },
+    "isActive": true,
+    "createdAt": {"$date": "2025-01-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2025-01-01T00:00:00.000Z"}
+  },
+  {
+    "name": "Medical Center Parking",
+    "address": {
+      "street": "654 Health Drive",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101",
+      "country": "USA"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-80.1918, 25.7617]
+    },
+    "totalSpots": 150,
+    "availableSpots": 105,
+    "spots": [
+      {"spotNumber": "E01", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 25.7617, "longitude": -80.1918}},
+      {"spotNumber": "E02", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 25.7618, "longitude": -80.1919}},
+      {"spotNumber": "E03", "type": "electric", "isAvailable": false, "isReserved": true, "coordinates": {"latitude": 25.7619, "longitude": -80.1920}},
+      {"spotNumber": "E04", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 25.7620, "longitude": -80.1921}}
+    ],
+    "pricing": {
+      "hourlyRate": 6.00,
+      "dailyRate": 35.00,
+      "currency": "USD"
+    },
+    "amenities": ["covered", "security", "valet", "24_hour"],
+    "operatingHours": {
+      "open": "00:00",
+      "close": "23:59",
+      "is24Hours": true
+    },
+    "contactInfo": {
+      "phone": "+1-555-1005",
+      "email": "medical@parkease.com"
+    },
+    "isActive": true,
+    "createdAt": {"$date": "2025-01-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2025-01-01T00:00:00.000Z"}
+  },
+  {
+    "name": "Sports Stadium Parking",
+    "address": {
+      "street": "987 Stadium Way",
+      "city": "Denver",
+      "state": "CO",
+      "zipCode": "80201",
+      "country": "USA"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-104.9903, 39.7392]
+    },
+    "totalSpots": 300,
+    "availableSpots": 210,
+    "spots": [
+      {"spotNumber": "F01", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 39.7392, "longitude": -104.9903}},
+      {"spotNumber": "F02", "type": "disabled", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 39.7393, "longitude": -104.9904}},
+      {"spotNumber": "F03", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 39.7394, "longitude": -104.9905}},
+      {"spotNumber": "F04", "type": "electric", "isAvailable": true, "isReserved": false, "coordinates": {"latitude": 39.7395, "longitude": -104.9906}}
+    ],
+    "pricing": {
+      "hourlyRate": 15.00,
+      "dailyRate": 75.00,
+      "currency": "USD"
+    },
+    "amenities": ["security"],
+    "operatingHours": {
+      "open": "06:00",
+      "close": "24:00",
+      "is24Hours": false
+    },
+    "contactInfo": {
+      "phone": "+1-555-1006",
+      "email": "stadium@parkease.com"
+    },
+    "isActive": true,
+    "createdAt": {"$date": "2025-01-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2025-01-01T00:00:00.000Z"}
+  }
+]
