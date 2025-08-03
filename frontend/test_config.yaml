@@ -1,0 +1,20 @@
+# Test configuration for ParkEase app
+test_runner:
+  timeout: 30s
+  concurrency: 4
+  
+platforms:
+  - vm
+  - chrome
+
+tags:
+  unit: "Unit tests"
+  widget: "Widget tests"
+  integration: "Integration tests"
+  
+coverage:
+  enabled: true
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/main.dart"

@@ -1,0 +1,11 @@
+{
+  "cSpell.words": [
+    "parkease",
+    "Parkease",
+    "ParkEase"
+  ],
+  "dart.lineLength": 80,
+  "editor.rulers": [80],
+  "dart.flutterSdkPath": null,
+  "dart.enableSdkFormatter": true
+}
