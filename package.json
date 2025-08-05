@@ -1,0 +1,54 @@
+{
+  "name": "parkease-mobile-app",
+  "version": "1.0.0",
+  "description": "Smart Parking Mobile Application - ParkEase",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm run setup:backend && npm run setup:frontend",
+    "setup:backend": "cd backend && npm install && node src/data/seedDatabase.js",
+    "setup:frontend": "cd frontend && flutter pub get",
+    "start": "npm run start:backend",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && flutter run",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && flutter test",
+    "test:quick": "node quick_test.js",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && flutter build apk --release",
+    "clean": "npm run clean:backend && npm run clean:frontend",
+    "clean:backend": "cd backend && rm -rf node_modules package-lock.json",
+    "clean:frontend": "cd frontend && flutter clean",
+    "seed": "cd backend && node src/data/seedDatabase.js",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && flutter pub get"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/12Omega/Mobile-Application-Development_-Pratham-Shrestha_16546994.git"
+  },
+  "keywords": [
+    "flutter",
+    "mobile-app",
+    "parking",
+    "smart-parking",
+    "nodejs",
+    "mongodb",
+    "google-maps",
+    "mobile-development"
+  ],
+  "author": "Pratham Shrestha",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ]
+}

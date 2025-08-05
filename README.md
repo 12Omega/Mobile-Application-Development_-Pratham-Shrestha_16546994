@@ -83,44 +83,63 @@ lib/
 
 ### Prerequisites
 - Flutter SDK (3.0+)
-- Dart SDK
+- Node.js (16+)
+- MongoDB (local or cloud)
 - Android Studio / VS Code
 - Physical device (for sensor testing)
 
-### Installation
+### Quick Installation
+
+**Option 1: Automated Setup (Recommended)**
+```bash
+# Windows
+install.bat
+
+# Linux/Mac
+./install.sh
+```
+
+**Option 2: Manual Setup**
 
 1. **Clone the repository**
    ```bash
-   git clone [your-github-classroom-repository-url]
-   cd parkease
+   git clone https://github.com/12Omega/Mobile-Application-Development_-Pratham-Shrestha_16546994.git
+   cd Mobile-Application-Development_-Pratham-Shrestha_16546994
    ```
 
-2. **Install Flutter dependencies**
+2. **Install all dependencies**
    ```bash
-   cd frontend
-   flutter pub get
+   npm run install:all
    ```
 
-3. **Install Backend dependencies**
+3. **Setup environment**
    ```bash
-   cd backend
-   npm install
+   cp backend/.env.example backend/.env
+   # Edit backend/.env with your configurations
    ```
 
-4. **Configure Google Maps API**
+4. **Seed database**
+   ```bash
+   npm run seed
+   ```
+
+5. **Configure Google Maps API**
    - Follow instructions in `frontend/GOOGLE_MAPS_SETUP.md`
    - Add your API key to Android and iOS configurations
 
-5. **Run the application**
+6. **Run the application**
    ```bash
-   # Frontend (Flutter)
-   cd frontend
-   flutter run
+   # Start backend
+   npm run start:backend
 
-   # Backend (Node.js)
-   cd backend
-   npm run dev
+   # Start frontend (in another terminal)
+   npm run start:frontend
    ```
+
+### Verify Installation
+```bash
+npm run test:quick
+```
 
 ## 📱 App Screens
 

@@ -7,13 +7,16 @@ const { usersData, parkingLotsData, generateParkingSpots, generateBookingData } 
 // Connect to MongoDB
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/parkease', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    // Load environment variables
+    require('dotenv').config();
+    
+    const mongoUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/parkease';
+    await mongoose.connect(mongoUri);
     console.log('✅ MongoDB connected successfully');
+    console.log(`📍 Connected to: ${mongoUri}`);
   } catch (error) {
     console.error('❌ MongoDB connection error:', error);
+    console.log('💡 Make sure MongoDB is running and the connection string is correct');
     process.exit(1);
   }
 };
@@ -114,7 +117,9 @@ const seedDatabase = async () => {
 
 // Run if called directly
 if (require.main === module) {
-  require('dotenv').config();
+  // Load environment variables from the correct path
+  const path = require('path');
+  require('dotenv').config({ path: path.join(__dirname, '../../.env') });
   seedDatabase();
 }
 
